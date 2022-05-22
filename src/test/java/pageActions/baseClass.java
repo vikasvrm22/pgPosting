@@ -67,10 +67,10 @@ public class baseClass {
 		// ProfilesIni profile = new ProfilesIni();
 		// FirefoxProfile myprofile = profile.getProfile("pgPosting");
 		WebDriverManager.chromedriver().setup();
-		ChromeOptions option = new ChromeOptions();
-		// option.setExperimentalOption("debuggingAddress", "localhost:9898");
-		option.addArguments("--user-data-dir=Users/vikas.verma/AppData/Local/Google/Chrome/User Data/Profile 2");
-		driver = new ChromeDriver(option);
+	//	ChromeOptions option = new ChromeOptions();
+	//	// option.setExperimentalOption("debuggingAddress", "localhost:9898");
+	//	option.addArguments("--user-data-dir=Users/vikas.verma/AppData/Local/Google/Chrome/User Data/Profile 2");
+		driver = new ChromeDriver(/* option */);
 
 		// option.addArguments("--profile-directory=Profile 1");
 		// option.addArguments("--disable-extensions");
